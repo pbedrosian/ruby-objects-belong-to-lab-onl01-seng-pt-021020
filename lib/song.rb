@@ -7,5 +7,6 @@ class Song
 
   def artist(name)
     name = Artist.name
+    title.artist = artist
   end
 end
